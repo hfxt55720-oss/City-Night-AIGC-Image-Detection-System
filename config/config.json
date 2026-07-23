@@ -1,0 +1,22 @@
+{
+  "default_model": "aide",
+  "device": "cuda",
+  "paths": {
+    "history": "data/history.json",
+    "results": "output/results",
+    "heatmaps": "output/heatmaps",
+    "weights": {
+      "aide": "models/weights/aide_night_best.pth",
+      "resnet50": "models/weights/resnet50_ai_detector.pth",
+      "efficientnet_b0": "models/weights/efficientnet_b0_ai_detector.pth"
+    }
+  },
+  "behavior": {
+    "save_history": true,
+    "auto_gradcam": true
+  },
+  "labels": {
+    "real": 0,
+    "fake": 1
+  }
+}

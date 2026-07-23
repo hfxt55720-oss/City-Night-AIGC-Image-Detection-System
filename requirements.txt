@@ -1,0 +1,11 @@
+PyQt6
+torch
+torchvision
+pillow
+numpy
+matplotlib
+opencv-python
+kornia
+open-clip-torch
+psutil
+pynvml

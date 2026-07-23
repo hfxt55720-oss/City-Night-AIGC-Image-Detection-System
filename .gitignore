@@ -1,0 +1,62 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Runtime outputs
+output/*
+!output/.gitkeep
+data/history.json
+*.log
+
+# Datasets
+datasets/*
+!datasets/.gitkeep
+
+# Model weights
+models/weights/*
+!models/weights/README.md
+!models/weights/.gitkeep
+!models/weights/custom_uploads/
+!models/weights/custom_uploads/.gitkeep
+*.pth
+*.pt
+*.onnx
+*.ckpt
+*.safetensors
+
+# Build artifacts
+build/
+dist/
+installer/
+*.spec.bak
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar
+*.gz
+
+# Local config / secrets
+.env
+.env.*
+
+# Third-party AIDE source is prepared manually.
+aide_external/models/*
+aide_external/data/*
+!aide_external/README.md
+!aide_external/models/.gitkeep
+!aide_external/data/.gitkeep
+
