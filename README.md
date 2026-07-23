@@ -87,25 +87,4 @@ datasets/Night-AIGC-Dataset/
 
 AIDE-Night 推理和训练需要 `aide_external` 中的兼容依赖源码。由于该部分来源于外部项目，公开仓库中默认不直接附带，请按 `THIRD_PARTY_SETUP.md` 准备。
 
-## 打包
-
-项目保留了 PyInstaller 和 NSIS 相关脚本：
-
-```powershell
-.\build_release.ps1
-.\build_installer.ps1
-```
-
-打包产物会生成到 `build/`、`dist/` 或安装包目录，这些内容不应提交到 GitHub。
-
-## 上传前检查
-
-上传 GitHub 前请查看 `GITHUB_UPLOAD_CHECKLIST.md`。尤其要确认没有提交：
-
-- 模型权重。
-- 训练数据集。
-- 检测结果、热力图和训练输出。
-- 本地历史记录。
-- 打包产物。
-- 软著申请资料。
 
